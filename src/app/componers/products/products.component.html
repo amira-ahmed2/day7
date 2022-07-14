@@ -1,0 +1,7 @@
+<h1>{{clStore.name}}</h1>
+<!-- <img src="{{clStore.logo}}"> -->
+<img [src]="clStore.logo">
+
+<!-- enum -->
+
+<h3 *ngIf="discount>0">We offer an explicit discount of:{{discount}}%</h3>
